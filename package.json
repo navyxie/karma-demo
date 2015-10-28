@@ -1,0 +1,25 @@
+{
+  "name": "karma-demo",
+  "version": "0.0.1",
+  "description": "karma unit test demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navyxie/karma-demo.git"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "karma": "^0.13.14",
+    "karma-junit-reporter": "^0.3.8"
+  },
+  "author": {
+    "name": "navyxie"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/navyxie/karma-demo",
+  "maintainers": [
+    {
+      "name": "navyxie",
+      "email": "navyxie2010@gmail.com"
+    }
+  ]
+}
