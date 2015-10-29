@@ -4,6 +4,7 @@ run test
 ```
   karma start karma.conf.js
 
+```
 *ubuntu plugin install*
 
 - npm install karma-chrome-launcher --save-dev --link
