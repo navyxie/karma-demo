@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="todoApp">
+	<head>
+		<title>angular scenario test</title>
+		<script type="text/javascript" src="../lib/angular.min.js"></script>
+		<script type="text/javascript" src="./app.js"></script>
+	</head>
+	<body>
+		<div ng-controller="TodoController">
+			<div>
+				<input type="text" ng-model="note" placeholder="Add a note here" />
+			</div>
+			<div>
+				<button ng-click="createNote()">Add</button>
+			</div>
+			<div>
+				<ul>
+					<li ng-repeat="note in notes track by $index">
+						<span>{{note|truncate:20}}</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
