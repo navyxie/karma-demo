@@ -1,5 +1,5 @@
 var app = angular.module('myApp');
-app.directive('aGreatEye', function () {
+app.directive('aGreatEye', function() {
     return {
         restrict: 'E',
         replace: true,
